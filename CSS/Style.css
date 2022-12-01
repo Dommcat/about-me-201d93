@@ -1,8 +1,81 @@
-
-body  {
+body {
+  margin-left: 80px;
+  width: 95%;
   background-color: darkgray;
+  color: black;
 }
 
-h1{
-  font-size: 2vw;
+
+header {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: darkgray;
+  color: black;
+}
+
+
+ol li {
+  list-style: decimal;
+  list-style-position: inside;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: darkgray;
+  color: blue;
+}
+
+ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: darkgray;
+  color: green;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  color: black;
+  margin: auto;
+}
+
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 80px;
+  font-size: 3vw;
+  color: black;
+  width: max-content;
+  margin: auto;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 80px;
+  font-size: 1vw;
+  color: black;
+  width: max-content;
+  margin: auto;
+}
+
+
+h3 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 1vw;
+  color: black;
+  width: max-content;
+  margin: left;
 }
